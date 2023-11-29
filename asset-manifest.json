@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/cryptoExchange/static/css/main.7acaea2f.css",
-    "main.js": "/cryptoExchange/static/js/main.570257b3.js",
+    "main.css": "/cryptoExchange/static/css/main.9b1c83f2.css",
+    "main.js": "/cryptoExchange/static/js/main.8621cab6.js",
+    "static/media/Group 543636868аспвапвпап.png": "/cryptoExchange/static/media/Group 543636868аспвапвпап.b68bd35ba34e6fc0de1a.png",
     "index.html": "/cryptoExchange/index.html",
-    "main.7acaea2f.css.map": "/cryptoExchange/static/css/main.7acaea2f.css.map",
-    "main.570257b3.js.map": "/cryptoExchange/static/js/main.570257b3.js.map"
+    "static/media/exchange.svg": "/cryptoExchange/static/media/exchange.9a9d9248bfc788a21959a9bfeb5b663e.svg",
+    "main.9b1c83f2.css.map": "/cryptoExchange/static/css/main.9b1c83f2.css.map",
+    "main.8621cab6.js.map": "/cryptoExchange/static/js/main.8621cab6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.570257b3.js"
+    "static/css/main.9b1c83f2.css",
+    "static/js/main.8621cab6.js"
   ]
 }
