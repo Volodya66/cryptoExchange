@@ -1,0 +1,25 @@
+import Section from "components/SectionWraps/Sections/Section"
+import css from "./SectionThree.module.css"
+import Button from "components/Button/Button"
+
+export default function SectionThree() {
+
+return(
+<Section typeSection={""} containerSection={"container"}>
+<h4 className={css.title}>Пункти видачі</h4>
+<ul className={css.listInformation}>
+    <li>
+        <p>Видача готівки у всіх великих містах України</p>
+    </li>
+    <li>
+        <p>Головний офіс у центрі Києва</p>
+    </li>
+    <li>
+        <p>Видача і інших містах від 5 000$, в інших країнах від 10 000$</p>
+    </li>
+</ul>
+    
+<Button styles={"btnSectionInformation"} text={"Замовити видачу готівки"} />
+</Section>        
+)
+}

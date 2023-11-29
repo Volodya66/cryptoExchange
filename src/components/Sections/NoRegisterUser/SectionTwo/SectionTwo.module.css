@@ -1,0 +1,48 @@
+.title{
+    font-style: 24px;
+    margin-bottom: 60px;
+}
+
+.listAdvantages{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px 40px;
+    margin-bottom: 40px;
+}
+
+.listItemAdv{
+    display: inline-block;
+    width: 128px;
+}
+
+.listItemTile{
+font-size: 24px;
+font-weight: 500; 
+padding-bottom: 20px;
+}
+
+.itemText{
+font-size: 20px;
+}
+
+.textCrypto{
+font-size: 16px;
+font-weight: 400;
+line-height: normal;   
+margin-bottom: 40px;
+}
+
+.listAdvantagesCrypto{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+}
+
+.listItemNumber{
+font-size: 20px;
+margin-bottom: 25px;
+}

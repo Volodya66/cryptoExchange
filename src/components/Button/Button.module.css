@@ -1,0 +1,73 @@
+
+.buttonMobileMenu{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.37;
+    margin-left: auto;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.btnHero1{
+    width: 205px;
+    background-color: #9C32F0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btnHero2 {
+    width: 205px;
+    background-color:rgba(156, 50, 240, 0.1);
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    color: rgba(156, 50, 240, 1);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(156, 50, 240, 1) ;
+
+}
+
+.btnAddDataUser{
+display: block;
+width: 205px;
+height: 40px;
+text-align: center;
+border: 1px solid transparent;
+border-radius: 25px;
+color: white;
+background-color: #9C32F0;
+margin-left: auto;
+/* outline: none; */
+}
+
+.btnSectionInformation{
+display: block;
+width: 205px;
+height: 40px;
+text-align: center;
+border: 1px solid transparent;
+border-radius: 25px;
+color: white;
+background-color: #9C32F0;
+margin-left: auto;
+font-size: 14px;
+}
