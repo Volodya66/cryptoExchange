@@ -1,0 +1,73 @@
+
+.wrapperContent{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.textSection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.titleText{
+font-size: 28px;
+text-align: center;
+font-style: normal;
+font-weight: 400;
+}
+
+.textOnline{
+font-size: 16px;
+text-align: center;
+}
+
+.link{
+text-decoration: none;
+color: #000;
+cursor: pointer;
+}
+
+.containerSocial{
+display: flex;
+justify-content: space-between;
+margin-bottom: 25px;
+align-items: center;
+}
+
+.listContact{
+padding: 0;
+list-style: none;
+display: flex;
+flex-direction: column;
+gap: 25px;
+cursor: pointer;
+}
+
+.listIcon{
+padding: 0;
+list-style: none;    
+display: flex;
+gap: 20px;
+cursor: pointer;
+}
+
+.listFooter{
+padding: 0;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+/* justify-content: space-between; */
+}
+
+.listFooterItem{
+font-size: 14px;
+}
+
+.listFooterItem:nth-child(3){
+    text-align: center;
+margin-left: auto;margin-right: auto;
+}

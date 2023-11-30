@@ -17,6 +17,44 @@
     flex-shrink: 0;
     margin-bottom: 60px;
 }
+.btnHero1 {
+    text-decoration: none;
+    width: 205px;
+    background-color: #9C32F0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btnHero2 {
+    text-decoration: none;
+    width: 205px;
+    background-color: rgba(156, 50, 240, 0.1);
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    color: rgba(156, 50, 240, 1);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(156, 50, 240, 1);
+
+}
 
 /* .wrapperTextHero{
     

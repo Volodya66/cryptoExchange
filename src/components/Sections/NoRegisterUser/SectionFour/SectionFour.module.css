@@ -33,4 +33,11 @@ margin-bottom: 60px;
 .textListItem{
 font-size: 20px;
 font-style: normal;
+display: inline-block;
+width: 255px;
+}
+
+.owerlay{
+    display: flex;
+    align-items: center;
 }

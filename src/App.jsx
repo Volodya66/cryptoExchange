@@ -16,7 +16,7 @@ return (
     <Button styles={"buttonMobileMenu"} type={"button"} text={"Меню"} />
   </Header>
   
-    <main>
+   
       <Routes>
         <Route path="/" element={<HomePage />} />
         {/* <Route path="/about" element={<About />} /> */}
@@ -25,7 +25,7 @@ return (
 
 
 
-  </main>
+ 
     
 
 

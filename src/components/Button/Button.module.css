@@ -7,7 +7,7 @@
     font-family: 'Manrope', sans-serif;
 }
 
-
+/* 
 .btnHero1{
     width: 205px;
     background-color: #9C32F0;
@@ -24,9 +24,9 @@
     justify-content: center;
     align-items: center;
     
-}
+} */
 
-.btnHero2 {
+/* .btnHero2 {
     width: 205px;
     background-color:rgba(156, 50, 240, 0.1);
     font-family: 'Manrope', sans-serif;
@@ -44,7 +44,7 @@
     backdrop-filter: blur(2px);
     border: 1px solid rgba(156, 50, 240, 1) ;
 
-}
+} */
 
 .btnAddDataUser{
 display: block;

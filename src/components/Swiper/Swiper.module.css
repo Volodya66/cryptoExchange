@@ -1,0 +1,39 @@
+
+
+.swiper {
+    width: 100%;
+    height: 139px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+/* .swiper-progressbar-fill {
+    background-color: red;
+    /* Ваш колір */
+/* } */ 
+
+.wrapper{
+    height: 139px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.text{
+margin-bottom: 25px;font-size: 16px;
+}

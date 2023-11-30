@@ -1,6 +1,6 @@
 import Section from "components/SectionWraps/Sections/Section"
 import css from "./SectionTwo.module.css"
-
+import Swipers from "components/Swiper/Swiper"
 export default function SectionTwo ()  {
 
 return(
@@ -31,7 +31,14 @@ return(
 <p className={css.textCrypto}>Якщо ви вирішите купити криптовалюту онлайн на нашому сервісі,
  то отримаєте професійну та оперативну підтримку, безпеку та простоту.
  </p>
- <h3 className={css.textCrypto}>Переваги обміну криптовалюти у нас</h3>   
+ <h3 className={css.textCrypto}>Переваги обміну криптовалюти у нас</h3>  
+
+
+
+ 
+        <Swipers/>
+        
+{/* 
  <div>
   <ul className={css.listAdvantagesCrypto}>
     <li>
@@ -52,7 +59,7 @@ return(
     </li>
  </ul>
  <p>sdsfsdsfsfdsdf</p>      
- </div>
+ </div> */}
  
  </Section>
 )

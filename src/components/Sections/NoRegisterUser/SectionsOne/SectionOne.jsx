@@ -2,17 +2,17 @@ import Section from "components/SectionWraps/Sections/Section"
 import FormData from "components/Forms/FormDataBindingNoReg/FormaData/FormDataBinding"
 import css from "./SectionOne.module.css"
 // import { ReactComponent  as SvgReveranse} from 'images/svgMobile/arrows-exchange.svg'
-import { ReactComponent  as Reveranse} from 'images/svgMobile/exchange.svg'
+// import { ReactComponent  as Reveranse} from 'images/svgMobile/exchange.svg'
 
 export default function SectionOne () {
  
     
 return(
     <>
-    <Section typeSection={""} containerSection={"container"}>
+    <Section typeSection={""} containerSection={"container"} id="userContacts">
     <h2 className={css.titleSectionOne}>Обміняти криптовалюту</h2> 
     
-    <div className={css.containerExchange}>
+    {/* <div className={css.containerExchange}>
         
     <div className={css.efficiency}>
         <p className={css.text}>Ви віддаєте</p>     
@@ -47,7 +47,7 @@ return(
      </ul> 
     </div>
  
-    </div>
+    </div> */}
     
     <div className={css.userData}>
      <FormData/>

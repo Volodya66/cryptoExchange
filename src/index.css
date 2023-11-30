@@ -76,3 +76,25 @@ button {
   font-family: 'Manrope', sans-serif; 
 }
 
+
+
+
+.swiper-horizontal>.swiper-pagination-progressbar,
+.swiper-pagination-progressbar.swiper-pagination-horizontal,
+.swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite {
+  bottom: 0;
+  width: 100%;
+  border-radius: 50px;
+  background-color: white;
+  border: 1px solid #9C32F0;
+  position: relative;
+  }
+
+    .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+      background-color: #EC14E3;
+      border-radius: 25px;
+        bottom: 0;
+        
+    }
+    
