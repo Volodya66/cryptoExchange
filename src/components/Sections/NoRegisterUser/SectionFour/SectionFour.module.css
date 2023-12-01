@@ -14,7 +14,7 @@ margin-bottom: 60px;
 }
 
 .listItem{
-    padding: 20px;
+    /* padding: 20px; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@ margin-bottom: 60px;
     width: 100%;
     height: 1px;
     left: 0;
-    top: 158px;
+    top: 148px;
     background-color: rgba(156, 50, 240, 1);
 }
 
@@ -62,7 +62,8 @@ width: 255px;
 .divOrignText{
     display: flex;
     align-items: center;
-    margin-bottom: 23px;
+    padding: 20px;
+    /* margin-bottom: 20px; */
 }
 
 
@@ -81,22 +82,24 @@ width: 255px;
 }
 
 .visible1 {
-    height: 224px;
+
+    height: 280px;
+    /* height: 304px; */
     padding: 40px 20px;
 }
 
 
 .visible2 {
-    height: 444px;
+    height: 420px;
     padding: 40px 20px;
 }
 
 .visible3 {
-    height: 268px;
+    height: 274px;
     padding: 40px 20px;
 }
 
 .visible4 {
-    height: 134px;
+    height: 144px;
     padding: 40px 20px;
 }
