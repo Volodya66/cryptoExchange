@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cryptoExchange/static/css/main.b4c735c1.css",
-    "main.js": "/cryptoExchange/static/js/main.9e5087c4.js",
+    "main.css": "/cryptoExchange/static/css/main.eca2caf0.css",
+    "main.js": "/cryptoExchange/static/js/main.b6220b2c.js",
     "static/media/Group 543636868аспвапвпап.png": "/cryptoExchange/static/media/Group 543636868аспвапвпап.b68bd35ba34e6fc0de1a.png",
     "static/media/Instagram.svg": "/cryptoExchange/static/media/Instagram.050b8cda209687ec954d3a7e12d60255.svg",
     "index.html": "/cryptoExchange/index.html",
     "static/media/down.svg": "/cryptoExchange/static/media/down.cb869a9b7c4052711910aa37d6235229.svg",
     "static/media/telegram.svg": "/cryptoExchange/static/media/telegram.889ecb3a9f98859148c488fe5dcd3ac2.svg",
     "static/media/exchange.svg": "/cryptoExchange/static/media/exchange.9a9d9248bfc788a21959a9bfeb5b663e.svg",
-    "main.b4c735c1.css.map": "/cryptoExchange/static/css/main.b4c735c1.css.map",
-    "main.9e5087c4.js.map": "/cryptoExchange/static/js/main.9e5087c4.js.map"
+    "main.eca2caf0.css.map": "/cryptoExchange/static/css/main.eca2caf0.css.map",
+    "main.b6220b2c.js.map": "/cryptoExchange/static/js/main.b6220b2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4c735c1.css",
-    "static/js/main.9e5087c4.js"
+    "static/css/main.eca2caf0.css",
+    "static/js/main.b6220b2c.js"
   ]
 }
