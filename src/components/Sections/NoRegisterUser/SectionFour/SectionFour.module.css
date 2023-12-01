@@ -16,6 +16,8 @@ margin-bottom: 60px;
 .listItem{
     padding: 20px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -26,8 +28,19 @@ margin-bottom: 60px;
     width: 100%;
     height: 1px;
     left: 0;
-    bottom: 0;
+    top: 94px;
     background-color: rgba(156,50,240,1);
+}
+
+.listItem:nth-child(4)::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 158px;
+    background-color: rgba(156, 50, 240, 1);
 }
 
 .textListItem{
@@ -37,7 +50,53 @@ display: inline-block;
 width: 255px;
 }
 
-.owerlay{
+.textOverlay{
+    font-size: 16px;
+}
+
+.textOverlay2{
+    font-style: 16px;
+    padding-top: 10px;
+}
+
+.divOrignText{
     display: flex;
     align-items: center;
+    margin-bottom: 23px;
+}
+
+
+
+.containerOverlay {
+    padding: 0 20px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.visible {
+   height: auto;
+    /* або будь-яке інше значення, яке ви хочете встановити */
+    padding: 40px 20px;
+}
+
+.visible1 {
+    height: 224px;
+    padding: 40px 20px;
+}
+
+
+.visible2 {
+    height: 444px;
+    padding: 40px 20px;
+}
+
+.visible3 {
+    height: 268px;
+    padding: 40px 20px;
+}
+
+.visible4 {
+    height: 134px;
+    padding: 40px 20px;
 }

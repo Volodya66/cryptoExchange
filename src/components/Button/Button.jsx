@@ -1,6 +1,6 @@
 import css from "./Button.module.css"
 
-export default function Button({ type="button", text, styles }) {
+export default function Button({ type="button", text, styles, onClick }) {
   
 
 return(

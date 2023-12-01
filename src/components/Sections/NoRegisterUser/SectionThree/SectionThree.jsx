@@ -1,12 +1,12 @@
 import Section from "components/SectionWraps/Sections/Section"
 import css from "./SectionThree.module.css"
-import Button from "components/Button/Button"
+
 
 export default function SectionThree() {
 
 return(
-<Section typeSection={""} containerSection={"container"}>
-<h4 className={css.title}>Пункти видачі</h4>
+<Section  typeSection={""} containerSection={"container"}>
+<h4  className={css.title}>Пункти видачі</h4>
 <ul className={css.listInformation}>
     <li>
         <p>Видача готівки у всіх великих містах України</p>
@@ -19,7 +19,8 @@ return(
     </li>
 </ul>
     
-<Button styles={"btnSectionInformation"} text={"Замовити видачу готівки"} />
+        {/* <Button styles={"btnSectionInformation"} text={"Замовити видачу готівки"} /> */}
+    <a href="#userContacts" className={css.btnInformation} >Замовити видачу готівки</a>
 </Section>        
 )
 }
