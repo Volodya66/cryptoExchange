@@ -1,8 +1,8 @@
 import Section from "components/SectionWraps/Sections/Section"
 import css from "./Footer.module.css"
 
-import {ReactComponent as Instagram} from "../../images/svgMobile/Instagram.svg"
-import {ReactComponent as Telegram} from "../../images/svgMobile/telegram.svg"
+import {ReactComponent as Instagram} from "images/svgMobile/Instagram.svg"
+import {ReactComponent as Telegram} from "images/svgMobile/telegram.svg"
 
 export default function Footer ()  {
   

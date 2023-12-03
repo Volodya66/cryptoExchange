@@ -1,0 +1,140 @@
+
+
+/* .mobileMenu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 80;
+    min-width: 280px;
+    width: 100%;
+    opacity: 1;
+   
+    pointer-events: auto;
+} */
+
+.modal{
+     position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 80;
+    min-width: 280px;
+    width: 100%;
+    opacity: 0;
+    /* visibility: hidden; */
+    pointer-events: auto;
+    min-width: 280px;
+    /* width: 100%; */
+    height: 100%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    transition: transform 0.6s ease-in-out, opacity 0.5s ease-in-out;
+    transform: translateX(100%);
+}
+
+
+.logo{
+    text-decoration: none;
+    font-size: 28px;
+    color: #000;
+}
+
+.listHeder{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.regAuth{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140.5px;
+}
+
+.textAuth{
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+}
+
+.textNav{
+font-size: 20px;
+text-decoration: none;
+color: #000;
+transition: scroll 0.6s ease-in-out;
+/* cursor: cell; */
+}
+
+.logoModal{
+    font-size: 28px;
+}
+
+
+.contextModal{
+    display: flex;
+    flex-direction: column;
+    /* gap: 140px; */
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.containerSocial {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: auto;
+    flex-grow: 1;
+}
+
+.listContact {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.listIcon {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+/* .containerModalInfo{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+} */
+
+
+.isOpened{
+    transition: transform 0.6s ease-in-out, opacity 0.5s ease-in-out;
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;  
+}

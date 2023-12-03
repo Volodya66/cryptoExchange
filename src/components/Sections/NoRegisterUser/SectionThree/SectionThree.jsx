@@ -5,7 +5,7 @@ import css from "./SectionThree.module.css"
 export default function SectionThree() {
 
 return(
-<Section  typeSection={""} containerSection={"container"}>
+<Section  typeSection={""} containerSection={"container"} id='deliveryPoints'>
 <h4  className={css.title}>Пункти видачі</h4>
 <ul className={css.listInformation}>
     <li>

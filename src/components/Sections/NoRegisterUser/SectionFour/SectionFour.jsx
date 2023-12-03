@@ -51,7 +51,7 @@ return(
     <div className={css.owerlay} >
      <div className={css.divOrignText}>
      <p className={css.textListItem}>Які валюти підтримує ваш обмінник?</p>  
-      <ButtonSvg onClick={rotateBtn} id="1">
+      <ButtonSvg styles={'btn_svg'} onClick={rotateBtn} id="1">
       <Dovn width="25" height="25" />
       </ButtonSvg>
      </div> 
@@ -69,7 +69,7 @@ return(
     <div className={css.owerlay} >
      <div className={css.divOrignText}>
      <p className={css.textListItem}>Чи легально купляти криптовалюти в Україні?</p>  
-      <ButtonSvg onClick={rotateBtn} id="2">
+      <ButtonSvg styles={'btn_svg'} onClick={rotateBtn} id="2">
       <Dovn width="25" height="25" />
       </ButtonSvg>
      </div> 
@@ -94,7 +94,7 @@ return(
     <div className={css.owerlay} >
      <div className={css.divOrignText}>
      <p className={css.textListItem}>Як створити криптогаманець?</p>  
-      <ButtonSvg onClick={rotateBtn} id="3">
+      <ButtonSvg styles={'btn_svg'} onClick={rotateBtn} id="3">
       <Dovn width="25" height="25" />
       </ButtonSvg>
      </div> 
@@ -114,7 +114,7 @@ return(
     <div className={css.owerlay} >
      <div className={css.divOrignText}>
      <p className={css.textListItem}>Чи існують приховані комісії або будь-які інші платежі при користуванні вашим обмінником?</p>  
-      <ButtonSvg onClick={rotateBtn} id="4">
+      <ButtonSvg styles={'btn_svg'} onClick={rotateBtn} id="4">
       <Dovn width="25" height="25" />
       </ButtonSvg>
      </div> 

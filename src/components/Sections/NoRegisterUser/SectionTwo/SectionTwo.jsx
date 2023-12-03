@@ -4,7 +4,7 @@ import Swipers from "components/Swiper/Swiper"
 export default function SectionTwo ()  {
 
 return(
- <Section typeSection={""} containerSection={"container"}>
+ <Section typeSection={""} containerSection={"container"} id={"info"}>
  <h3 className={css.title}>Інфо</h3>       
  <ul className={css.listAdvantages}>
     <li className={css.listItemAdv}>
