@@ -1,4 +1,4 @@
-import css from "./ButtonSvg.module.css"
+
 
 export default function ButtonSvg ({styles,onClick,children,id})   {
   
