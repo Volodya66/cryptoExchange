@@ -8,12 +8,21 @@ import {ReactComponent as Instagram} from "images/svgMobile/Instagram.svg"
 import {ReactComponent as Telegram} from "images/svgMobile/telegram.svg"
 
 import { stateModal } from "reducer/modalReducer/selectorsModal";
+import { NavLink } from "react-router-dom";
 
 export default function ModalMenu({openModal}) {
  
 
 const stateIsOpenModal = useSelector(stateModal);
 // console.log('stateIsOpenModal: ', stateIsOpenModal);
+
+const onClickClose=(e)=>{
+ 
+    if (e.currentTarget === e.target) {
+    openModal();
+    }
+
+}
     
 const clickOnListNav=(e)=>{
 if(e.target !== e.currentTarget){
@@ -29,22 +38,25 @@ return (
         
         <div className={`${css.modal}  ${stateIsOpenModal ? css.isOpened : ""}`}>
          <ul className={css.listHeder}>
-            <li><a className={css.logo}  href="#@sdfs">Crypto Change</a></li>
-            <li><Button styles={'btnModal'} onClick={openModal}  text={"Згорнути"} /></li>
+                <li>
+                    {/* <a className={css.logo} href="#@sdfs">Crypto Change</a> */}
+                <NavLink onClick={onClickClose}  className={css.logo} to='/'> Crypto Change </NavLink>
+                </li>
+            <li><Button  styles={'btnModal'} onClick={openModal}  text={"Згорнути"} /></li>
          </ul>
          
 
             
           <ul className={css.regAuth}>
-            <li><span className={css.textAuth}>Реєстрація</span></li>
-            <li><span className={css.textAuth}>Вхід</span></li>
+            <li> <NavLink onClick={onClickClose} className={css.textAuth} to='/registration'>Реєстрація</NavLink></li>
+            <li> <NavLink onClick={onClickClose} className={css.textAuth} to='/login'>Вхід</NavLink></li>
          </ul>  
 
                     
 
         <nav>
             <ul onClick={clickOnListNav} className={css.nav}>
-                <li><a className={css.textNav} href="#userContacts"> Обміняти криптовалюту</a></li>
+                <li>  <a className={css.textNav} href="#userContacts"> Обміняти криптовалюту</a></li>
                 <li><a className={css.textNav} href="#info">Інфо</a></li>
                 <li><a className={css.textNav} href="#deliveryPoints">Пункти видачі</a></li>
                 <li><a className={css.textNav} href="#FAQ">FAQ</a></li>

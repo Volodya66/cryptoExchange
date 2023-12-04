@@ -1,0 +1,74 @@
+
+.container{
+    margin-bottom: 40px;
+}
+
+.text{
+font-size: 10px;
+margin-bottom: 10px;
+}
+
+.inp {
+    width: 100%;
+    padding: 16px;
+    background-color: white;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to bottom,
+            rgba(139, 129, 255, 1),
+            rgba(126, 50, 240, 1),
+            rgba(236, 20, 227, 1)) border-box;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    outline: none;
+    font-size: 14px;
+}
+
+.inpCheckbox{
+display: flex;
+/* justify-content: center; */
+align-items: center;
+gap: 10px;
+}
+
+.textCheckbox{
+font-size: 14px;
+}
+
+.label:nth-child(1){
+    display: block;
+    margin-bottom: 10px ;
+}
+
+.label:nth-child(2) {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.label:nth-child(3) {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.checkboxChecked{
+     position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px; 
+}
+
+.spanChecked{
+display: flex;
+justify-content: center;
+align-self: center;
+width: 24px;
+height: 24px;
+border: 1px solid #EC14E3;
+flex-shrink: 0;
+}
+

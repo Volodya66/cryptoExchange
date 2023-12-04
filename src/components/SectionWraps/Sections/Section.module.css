@@ -31,5 +31,26 @@
     margin-bottom: 85px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 20px;
+    padding:  20px 0;
+}
+
+.container-registration{
+    min-width: 280px;
+    max-width: 360px;
+    margin-top: 40px ;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.container-login{
+    min-width: 280px;
+    max-width: 360px;
+    /* width: 100%; */
+    margin-top: 40px ;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px  ;
 }

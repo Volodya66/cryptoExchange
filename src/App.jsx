@@ -2,12 +2,16 @@ import { useDispatch } from "react-redux";
 
 import Header from "components/SectionWraps/Header/Header"
 import Button from "components/Button/Button"
-import HomePage from "pages/HomePageNoRegister/HomePage";
 
-import { Routes, Route ,NavLink} from "react-router-dom";
+import HomePage from "pages/HomePageNoRegister/HomePage";
+import Registration from "pages/Register/Registration";
+
+import { Routes, Route ,NavLink, Navigate} from "react-router-dom";
 
 // import { stateModal } from "reducer/modalReducer/selectorsModal";
 import { toggleModal } from "reducer/modalReducer/modalSlice";
+import ModalMenu from "components/Modal/ModalMobileMenu/ModalMobile";
+import Login from "pages/Login/Login";
 
 
 
@@ -20,8 +24,8 @@ const dispatch = useDispatch();
 
   
 const openModal=()=>{
-  console.log("APP")
-dispatch(toggleModal())  
+  // console.log("APP")
+dispatch(toggleModal()) ; 
 } 
   
 return (
@@ -33,13 +37,16 @@ return (
   </Header>
   
    
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        {/* <Route path="/about" element={<About />} /> */}
-        {/* <Route path="/products" element={<Products />} /> */}
-      </Routes>
+  <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/registration" element={<Registration />} />
+      <Route path="/login" element={<Login />} />
+      
 
+      <Route path="*" element={ <Navigate to='/'/>} />
+  </Routes>
 
+  <ModalMenu  openModal={openModal}/>
   </>
 )
 
