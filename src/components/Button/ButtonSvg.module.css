@@ -13,3 +13,8 @@
     border: 1px solid #9C32F0;
     border-radius: 50px;
 }
+
+    
+.btn_svg{
+  transition: transform 0.3s ease-in-out;
+}

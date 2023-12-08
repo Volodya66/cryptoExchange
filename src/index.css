@@ -99,9 +99,9 @@ button {
         
     }
     
-.btn_svg{
+/* .btn_svg{
   transition: transform 0.3s ease-in-out;
-}
+} */
 
 .button-rotate{
 transform: rotate(180deg);
