@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import Button from 'components/Button/Button';
 import ButtonSvg from 'components/Button/ButtonSvg';
 
@@ -16,7 +16,7 @@ export default function ModalMenu({ openModal }) {
   const stateIsOpenModal = useSelector(stateModal);
   // console.log('stateIsOpenModal: ', stateIsOpenModal);
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const onClickClose = e => {
     if (e.currentTarget === e.target) {
@@ -87,9 +87,9 @@ export default function ModalMenu({ openModal }) {
 
         <nav>
           <ul onClick={clickOnListNav} className={css.nav}>
-            <li>
+            {/* <li>
               {' '}
-              {/* <NavLink className={css.textNav} to="/crypto#userContacts"> */}{' '}
+          
               <a
                 className={css.textNav}
                 onClick={() => {
@@ -100,8 +100,8 @@ export default function ModalMenu({ openModal }) {
               >
                 Обміняти криптовалюту
               </a>
-              {/* </NavLink> */}
-            </li>
+              
+            </li> */}
             <li>
               {' '}
               <a className={css.textNav} href="#userContacts">
