@@ -1,73 +1,111 @@
-
-.wrapperContent{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
+.sectionFooter {
+  margin-top: 80px;
+  margin-bottom: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
 }
 
-.textSection{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.wrapperContent {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 
-
-.titleText{
-font-size: 28px;
-text-align: center;
-font-style: normal;
-font-weight: 400;
+.textSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.textOnline{
-font-size: 16px;
-text-align: center;
+.titleText {
+  font-size: 28px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.link{
-text-decoration: none;
-color: #000;
-cursor: pointer;
+.textOnline {
+  font-size: 16px;
+  text-align: center;
 }
 
-.containerSocial{
-display: flex;
-justify-content: space-between;
-margin-bottom: 25px;
-align-items: center;
+.link {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
 }
 
-.listContact{
-padding: 0;
-list-style: none;
-display: flex;
-flex-direction: column;
-gap: 25px;
-cursor: pointer;
+.containerSocial {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  align-items: center;
 }
 
-.listIcon{
-padding: 0;
-list-style: none;    
-display: flex;
-gap: 20px;
-cursor: pointer;
+.listContact {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  cursor: pointer;
 }
 
-.listFooter{
-padding: 0;
-list-style: none;
-display: flex;
-flex-wrap: wrap;
-gap: 25px;
-justify-content: space-between;
+.listIcon {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
 }
 
-.listFooterItem{
-font-size: 14px;
+.listFooter {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-between;
 }
 
-.listFooterItem:nth-child(3){
-    text-align: center;
-margin-left: auto;margin-right: auto;
+.listFooterItem {
+  font-size: 14px;
+}
+
+.listFooterItem:nth-child(3) {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    min-width: 280px;
+    max-width: 360px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+  }
+
+  .sectionFooter {
+    min-width: 280px;
+    max-width: 360px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+  .listFooter {
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .listFooterItem:nth-child(3) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sectionFooter {
+    width: 768px;
+    padding: 0 20px;
+  }
 }

@@ -1,10 +1,47 @@
-
-
-.listResetLogin {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
+.title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
+.listResetLogin {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+  .wrapperReg {
+    width: 320px;
+    margin-left: auto;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+
+  .backgroundSvg {
+    width: 303px;
+    height: 528px;
+  }
+
+  .backgroundSvg {
+    background-image: url(../../../../images/svgTablet/ethTabl.svg),
+      url(../../../../images/svgTablet//moneroTabl.svg),
+      url(../../../../images/svgTablet/usd.svg),
+      url(../../../../images/svgTablet/eurTabl.svg),
+      url(../../../../images/svgTablet/btcTabl.svg),
+      url(../../../../images/svgTablet/zetaTabl.svg);
+    background-repeat: no-repeat;
+    background-size: 180px 336px 80px 80px 50px 80px 50px 75px 100px 150px 80px
+      140px;
+    background-position: left 0 bottom 0, right 0 top 288px,
+      left 155.8px top 195px, top 134px left 228px, top 7px left 155px,
+      left 20px top 38px;
+  }
+}

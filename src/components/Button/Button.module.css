@@ -1,10 +1,9 @@
-
-.buttonMobileMenu{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.37;
-    margin-left: auto;
-    font-family: 'Manrope', sans-serif;
+.buttonMobileMenu {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.37;
+  margin-left: auto;
+  font-family: 'Manrope', sans-serif;
 }
 
 /* 
@@ -46,17 +45,17 @@
 
 } */
 
-.btnAddDataUser{
-display: block;
-width: 205px;
-height: 40px;
-text-align: center;
-border: 1px solid transparent;
-border-radius: 25px;
-color: white;
-background-color: #9C32F0;
-margin-left: auto;
-/* outline: none; */
+.btnAddDataUser {
+  display: block;
+  width: 205px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  color: white;
+  background-color: #9c32f0;
+  margin-left: auto;
+  /* outline: none; */
 }
 
 /* .btnSectionInformation{
@@ -72,23 +71,29 @@ margin-left: auto;
 font-size: 14px;
 } */
 
-
-.btnModal{
-    font-size: 20px;
+.btnModal {
+  font-size: 20px;
 }
 
-.btnRegisterUSer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 320px;
-    height: 42px;
-    border-radius: 50px;
-    background:  #9C32F0;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    margin-bottom: 20px;
+.btnRegisterUSer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+  height: 42px;
+  border-radius: 50px;
+  background: #9c32f0;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+  .btnAddDataUser {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+  }
+}

@@ -1,105 +1,172 @@
-
-.title{
-font-size: 24px;
-font-style: normal;
-font-weight: 500; 
-margin-bottom: 60px;
+.title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 60px;
 }
 
-.listInformation{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
+.listInformation {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
 }
 
-.listItem{
+.listItem {
+  /* padding: 20px; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .listItem::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  top: 94px;
+  background-color: rgba(156, 50, 240, 1);
+} */
+
+/* .listItem:nth-child(4)::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  top: 148px;
+  background-color: rgba(156, 50, 240, 1);
+} */
+
+.textListItem {
+  font-size: 20px;
+  font-style: normal;
+  display: inline-block;
+  width: 255px;
+}
+
+.textOverlay {
+  font-size: 16px;
+}
+
+.textOverlay2 {
+  font-style: 16px;
+  padding-top: 10px;
+}
+
+.divOrignText {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  height: 80px;
+
+  overflow: hidden;
+}
+.listItem:nth-child(4) .divOrignText {
+  height: 135px;
+}
+
+.containerOverlay:nth-child(4) {
+  height: 132px;
+}
+
+.divOrignText::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(156, 50, 240, 1);
+}
+
+.containerOverlay {
+  padding: 0 20px;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.visible {
+  height: auto;
+  /* або будь-яке інше значення, яке ви хочете встановити */
+  padding: 40px 20px;
+}
+
+.visible1 {
+  height: 234px;
+  /* height: 304px; */
+  padding: 40px 20px;
+}
+
+.visible2 {
+  height: 420px;
+  padding: 40px 20px;
+}
+
+.visible3 {
+  height: 274px;
+  padding: 40px 20px;
+}
+
+.visible4 {
+  height: 144px;
+  padding: 40px 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+  .divOrignText {
+    justify-content: space-between;
+  }
+
+  .textListItem {
+    width: 100%;
+  }
+
+  /* .owerlay {
+    height: 65px;
+  } */
+
+  /* .textOverlay:nth-child(4) {
+    height: 80px;
+  } */
+
+  .listItem {
     /* padding: 20px; */
     position: relative;
     display: flex;
     flex-direction: column;
+  }
 
-}
-
-.listItem::before{
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 1px;
-    left: 0;
-    top: 94px;
-    background-color: rgba(156,50,240,1);
-}
-
-.listItem:nth-child(4)::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 1px;
-    left: 0;
-    top: 148px;
-    background-color: rgba(156, 50, 240, 1);
-}
-
-.textListItem{
-font-size: 20px;
-font-style: normal;
-display: inline-block;
-width: 255px;
-}
-
-.textOverlay{
-    font-size: 16px;
-}
-
-.textOverlay2{
-    font-style: 16px;
-    padding-top: 10px;
-}
-
-.divOrignText{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    /* margin-bottom: 20px; */
-}
-
-
-
-.containerOverlay {
-    padding: 0 20px;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
-}
-
-.visible {
-   height: auto;
+  .visible {
+    height: auto;
     /* або будь-яке інше значення, яке ви хочете встановити */
     padding: 40px 20px;
-}
+  }
 
-.visible1 {
-
-    height: 234px;
+  .visible1 {
+    height: 140px;
     /* height: 304px; */
     padding: 40px 20px;
-}
+  }
 
-
-.visible2 {
-    height: 420px;
+  .visible2 {
+    height: 222px;
     padding: 40px 20px;
-}
+  }
 
-.visible3 {
-    height: 274px;
+  .visible3 {
+    height: 168px;
     padding: 40px 20px;
-}
+  }
 
-.visible4 {
-    height: 144px;
+  .visible4 {
+    height: 10з того всього роблю свій проек4px;
     padding: 40px 20px;
+  }
 }

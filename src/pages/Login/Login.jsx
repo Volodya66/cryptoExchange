@@ -1,16 +1,11 @@
-import SectionLogin from "components/Sections/NoRegisterUser/SectionLogin/SectionLogin";
+import SectionLogin from 'components/Sections/NoRegisterUser/SectionLogin/SectionLogin';
+import Footer from 'components/Sections/Footer';
 
-
-export default function Login ()  {
-  
-
-return (
-    
+export default function Login() {
+  return (
     <>
-    <SectionLogin/>
-    
+      <SectionLogin />
+      <Footer />
     </>
-
-)
-
+  );
 }

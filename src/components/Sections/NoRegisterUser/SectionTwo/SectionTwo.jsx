@@ -1,44 +1,45 @@
-import Section from "components/SectionWraps/Sections/Section"
-import css from "./SectionTwo.module.css"
-import Swipers from "components/Swiper/Swiper"
-export default function SectionTwo ()  {
+import Section from 'components/SectionWraps/Sections/Section';
+import css from './SectionTwo.module.css';
+import Swipers from 'components/Swiper/Swiper';
+export default function SectionTwo() {
+  return (
+    <Section typeSection={''} containerSection={'container'} id={'info'}>
+      <h3 className={css.title}>Інфо</h3>
+      <ul className={css.listAdvantages}>
+        <li className={css.listItemAdv}>
+          <h4 className={css.listItemTile}>300</h4>
+          <p className={css.itemText}>Криптовалют</p>
+        </li>
+        <li className={css.listItemAdv}>
+          <h4 className={css.listItemTile}>5000</h4>
+          <p className={css.itemText}>Клієнтів</p>
+        </li>
+        <li className={css.listItemAdv}>
+          <h4 className={css.listItemTile}>$34m</h4>
+          <p className={css.itemText}>Обіг в рік</p>
+        </li>
+        <li className={css.listItemAdv}>
+          <h4 className={css.listItemTile}>5</h4>
+          <p className={css.itemText}>Країн</p>
+        </li>
+      </ul>
+      <div className={css.cryptoWrapperText}>
+        <p className={css.textCrypto}>
+          Crypto Change – це надійний та простий спосіб здійснювати операції з
+          криптовалютами в Україні. Сервіс має бездоганну репутацію та пропонує
+          найкращі умови обміну.
+        </p>
+        <p className={css.textCrypto}>
+          Якщо ви вирішите купити криптовалюту онлайн на нашому сервісі, то
+          отримаєте професійну та оперативну підтримку, безпеку та простоту.
+        </p>
+      </div>
 
-return(
- <Section typeSection={""} containerSection={"container"} id={"info"}>
- <h3 className={css.title}>Інфо</h3>       
- <ul className={css.listAdvantages}>
-    <li className={css.listItemAdv}>
-        <h4 className={css.listItemTile}>300</h4>
-        <p className={css.itemText}>Криптовалют</p>
-    </li>
-    <li className={css.listItemAdv}>
-        <h4 className={css.listItemTile}>5000</h4>
-        <p className={css.itemText}>Клієнтів</p>
-    </li>
-    <li className={css.listItemAdv}>
-        <h4 className={css.listItemTile}>$34m</h4>
-        <p className={css.itemText}>Обіг в рік</p>
-    </li>
-    <li className={css.listItemAdv}>
-        <h4 className={css.listItemTile}>5</h4>
-        <p className={css.itemText}>Країн</p>
-    </li>
- </ul>  
-<p className={css.textCrypto}>Crypto Change – це надійний та простий спосіб здійснювати
-операції з криптовалютами в Україні.
-Сервіс має бездоганну репутацію та пропонує найкращі умови обміну. 
-</p>
-<p className={css.textCrypto}>Якщо ви вирішите купити криптовалюту онлайн на нашому сервісі,
- то отримаєте професійну та оперативну підтримку, безпеку та простоту.
- </p>
- <h3 className={css.textCrypto}>Переваги обміну криптовалюти у нас</h3>  
+      <h3 className={css.textCrypto}>Переваги обміну криптовалюти у нас</h3>
 
+      <Swipers />
 
-
- 
-        <Swipers/>
-        
-{/* 
+      {/* 
  <div>
   <ul className={css.listAdvantagesCrypto}>
     <li>
@@ -60,8 +61,6 @@ return(
  </ul>
  <p>sdsfsdsfsfdsdf</p>      
  </div> */}
- 
- </Section>
-)
-
+    </Section>
+  );
 }

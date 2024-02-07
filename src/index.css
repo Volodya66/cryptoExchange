@@ -20,8 +20,6 @@ code {
     monospace;
 }
 
-
-
 h1,
 h2,
 h3,
@@ -66,7 +64,7 @@ button {
   margin: -1px;
 }
 
-.logo{
+.logo {
   font-weight: 400;
   font-size: 28px;
   line-height: 1.37;
@@ -74,41 +72,51 @@ button {
 
   color: black;
   text-decoration: none;
-  font-family: 'Manrope', sans-serif; 
+  font-family: 'Manrope', sans-serif;
 }
 
+@media screen and (min-width: 767.9px) {
+}
 
-
-
-.swiper-horizontal>.swiper-pagination-progressbar,
+.swiper-horizontal > .swiper-pagination-progressbar,
 .swiper-pagination-progressbar.swiper-pagination-horizontal,
-.swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-vertical
+  > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
 .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite {
   bottom: 0;
   width: 100%;
   border-radius: 50px;
   background-color: white;
-  border: 1px solid #9C32F0;
+  border: 1px solid #9c32f0;
   position: relative;
-  }
+}
 
-    .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-      background-color: #EC14E3;
-      border-radius: 25px;
-        bottom: 0;
-        
-    }
-    
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: #ec14e3;
+  border-radius: 25px;
+  bottom: 0;
+}
+
 /* .btn_svg{
   transition: transform 0.3s ease-in-out;
 } */
 
-.button-rotate{
-transform: rotate(180deg);
+.button-rotate {
+  transform: rotate(180deg);
+}
+.buttonSwitchRotate {
+  /* transform: translateX(36px);
+  transform: rotate(180deg); */
+  transform: translateX(37px) rotate(180deg) scale(0.9);
 }
 
 .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+.swiper-slide,
+.swiper-slide swiper-slide-active {
+  width: calc(100% / 2);
 }

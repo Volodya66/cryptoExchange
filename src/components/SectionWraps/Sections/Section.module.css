@@ -1,56 +1,111 @@
-.sectionHero{
+.containerHero {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  /* min-width: 280px;
+  max-width: 360px; */
+  margin-top: 80px;
+
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  /* padding: 0 20px; */
+}
+
+.sectionOne {
+  padding-top: 80px;
+}
+
+/* .sectionFooter {
+  margin-top: 80px;
+  margin-bottom: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+} */
+
+.container-registration {
+  margin-top: 40px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.container-login {
+  /* min-width: 280px;
+  max-width: 360px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 100%; */
+  margin-top: 40px;
+
+  padding: 20px;
+}
+
+@media screen and (max-width: 767.9px) {
+  .sectionHero {
     padding-top: 60px;
-}
+  }
 
-.containerHero{
+  .containerHero {
     min-width: 280px;
     max-width: 360px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 0 20px 0 21px;
-}
-
-.container{   
+  }
+  .container {
     min-width: 280px;
     max-width: 360px;
-    margin-top: 80px;
-    
+
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px;
-}
+  }
 
-.sectionOne{
-    padding-top: 80px;
-}
-
-.sectionFooter{
+  .sectionFooter {
     min-width: 280px;
     max-width: 360px;
-    margin-top: 80px ;
-    margin-bottom: 85px;
-    margin-left: auto;
-    margin-right: auto;
-    padding:  20px 0;
-}
-
-.container-registration{
+  }
+  .container-login {
     min-width: 280px;
     max-width: 360px;
-    margin-top: 40px ;
+  }
 
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-}
-
-.container-login{
+  .container-registration {
     min-width: 280px;
     max-width: 360px;
-    /* width: 100%; */
-    margin-top: 40px ;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+  .sectionHero {
+    padding-top: 40px;
+  }
+
+  .containerHero {
+    width: 768px;
+    padding: 0 32px;
+  }
+
+  .container {
+    width: 768px;
 
     margin-left: auto;
     margin-right: auto;
-    padding: 20px  ;
+    padding: 0 32px;
+  }
+
+  /* .sectionFooter {
+    width: 768px;
+    padding: 0 20px;
+  } */
+
+  .container-login {
+    width: 768px;
+  }
+  .container-registration {
+    width: 768px;
+  }
 }
