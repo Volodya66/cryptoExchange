@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/cryptoExchange/static/css/main.951ee3c9.css",
-    "main.js": "/cryptoExchange/static/js/main.6ca77b2c.js",
+    "main.css": "/cryptoExchange/static/css/main.57d6b5d3.css",
+    "main.js": "/cryptoExchange/static/js/main.5ba08bf0.js",
+    "static/media/groupHeroTablet.png": "/cryptoExchange/static/media/groupHeroTablet.066afaa13eed55e91812.png",
     "static/media/Group 543636868аспвапвпап.png": "/cryptoExchange/static/media/Group 543636868аспвапвпап.b68bd35ba34e6fc0de1a.png",
+    "static/media/switch.svg": "/cryptoExchange/static/media/switch.66c9d6d77624e3e61b3bc38a875fc907.svg",
+    "static/media/eurTabl.svg": "/cryptoExchange/static/media/eurTabl.879a3c5c5a6bf0edc1e8.svg",
+    "static/media/usd.svg": "/cryptoExchange/static/media/usd.5f27e9076f8b0484e258.svg",
+    "static/media/btcTabl.svg": "/cryptoExchange/static/media/btcTabl.6d5225b83bbdce9952f2.svg",
     "static/media/Instagram.svg": "/cryptoExchange/static/media/Instagram.050b8cda209687ec954d3a7e12d60255.svg",
     "index.html": "/cryptoExchange/index.html",
+    "static/media/zetaTabl.svg": "/cryptoExchange/static/media/zetaTabl.9e88262b56792dbaf7fc.svg",
+    "static/media/ethTabl.svg": "/cryptoExchange/static/media/ethTabl.86fc50a761cfdf4a7658.svg",
     "static/media/Google.svg": "/cryptoExchange/static/media/Google.ef4c7623bd2a198d27d466704ae762dd.svg",
+    "static/media/moneroTabl.svg": "/cryptoExchange/static/media/moneroTabl.f4a5ab67eb8a053ed46b.svg",
     "static/media/down.svg": "/cryptoExchange/static/media/down.cb869a9b7c4052711910aa37d6235229.svg",
     "static/media/check.svg": "/cryptoExchange/static/media/check.fd2785aa3f17f4c5520af199f2475390.svg",
     "static/media/telegram.svg": "/cryptoExchange/static/media/telegram.889ecb3a9f98859148c488fe5dcd3ac2.svg",
     "static/media/exchange.svg": "/cryptoExchange/static/media/exchange.9a9d9248bfc788a21959a9bfeb5b663e.svg",
-    "main.951ee3c9.css.map": "/cryptoExchange/static/css/main.951ee3c9.css.map",
-    "main.6ca77b2c.js.map": "/cryptoExchange/static/js/main.6ca77b2c.js.map"
+    "main.57d6b5d3.css.map": "/cryptoExchange/static/css/main.57d6b5d3.css.map",
+    "main.5ba08bf0.js.map": "/cryptoExchange/static/js/main.5ba08bf0.js.map"
   },
   "entrypoints": [
-    "static/css/main.951ee3c9.css",
-    "static/js/main.6ca77b2c.js"
+    "static/css/main.57d6b5d3.css",
+    "static/js/main.5ba08bf0.js"
   ]
 }
