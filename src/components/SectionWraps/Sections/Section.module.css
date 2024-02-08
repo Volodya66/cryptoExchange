@@ -4,14 +4,10 @@
 }
 
 .container {
-  /* min-width: 280px;
-  max-width: 360px; */
   margin-top: 80px;
-
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  /* padding: 0 20px; */
 }
 
 .sectionOne {
@@ -59,8 +55,8 @@
     min-width: 280px;
     max-width: 360px;
 
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     padding: 0 20px;
   }
 
@@ -79,7 +75,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+@media screen and (min-width: 768px) and (max-width: 1919.9px) {
   .sectionHero {
     padding-top: 40px;
   }
@@ -91,9 +87,6 @@
 
   .container {
     width: 768px;
-
-    margin-left: auto;
-    margin-right: auto;
     padding: 0 32px;
   }
 
@@ -107,5 +100,20 @@
   }
   .container-registration {
     width: 768px;
+  }
+}
+
+@media screen and (min-width: 1919.9px) {
+  .sectionHero {
+    padding-top: 50px;
+  }
+  .containerHero {
+    width: 1920px;
+    padding: 0 80px;
+  }
+  .container {
+    width: 1920px;
+    padding: 0 80px;
+    margin-top: 100px;
   }
 }

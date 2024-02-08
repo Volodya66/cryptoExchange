@@ -105,9 +105,33 @@ button {
   transform: rotate(180deg);
 }
 .buttonSwitchRotate {
-  /* transform: translateX(36px);
-  transform: rotate(180deg); */
-  transform: translateX(37px) rotate(180deg) scale(0.9);
+  transform: translateX(37px);
+}
+
+.spanSvg {
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.sun {
+  opacity: 1;
+  z-index: 1;
+}
+
+.moon {
+  position: absolute;
+  opacity: 0;
+}
+
+.sun-icon {
+  opacity: 0;
+  transition: opacity 0.3s ease transform 0.3s ease;
+}
+.moon-icon {
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
 .is-open {

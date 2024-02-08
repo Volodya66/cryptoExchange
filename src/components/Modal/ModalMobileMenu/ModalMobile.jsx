@@ -7,7 +7,8 @@ import css from './ModalMobile.module.css';
 
 import { ReactComponent as Instagram } from 'images/svgMobile/Instagram.svg';
 import { ReactComponent as Telegram } from 'images/svgMobile/telegram.svg';
-import { ReactComponent as Switch } from 'images/svgMobile/switch.svg';
+import { ReactComponent as Sun } from 'images/svgMobile/sun.svg';
+import { ReactComponent as Moon } from 'images/svgMobile/moon.svg';
 
 import { stateModal } from 'reducer/modalReducer/selectorsModal';
 import { NavLink } from 'react-router-dom';
@@ -32,7 +33,10 @@ export default function ModalMenu({ openModal }) {
 
   const onClickSwitch = e => {
     const button = e.currentTarget;
-    button.classList.toggle('buttonSwitchRotate');
+    const sun = button.querySelector('.sun');
+    const spanWrapperSvg = button.querySelector('.spanSvg');
+    sun.classList.toggle('sun-icon');
+    spanWrapperSvg.classList.toggle('buttonSwitchRotate');
   };
 
   return (
@@ -78,11 +82,16 @@ export default function ModalMenu({ openModal }) {
 
         <div className={css.wrapperSwitch}>
           <p className={css.textSwitch}>Переключити на темну тему</p>
-          <div className={css.backgroundSwitch}>
-            <ButtonSvg id={'switch'} onClick={onClickSwitch} styles={'switch'}>
-              <Switch width={36} height={36} />
-            </ButtonSvg>
-          </div>
+          {/* <div className={css.backgroundSwitch}> */}
+          <ButtonSvg id={'switch'} onClick={onClickSwitch} styles={'switch'}>
+            <span className="spanSvg">
+              <Sun className="sun" width={36} height={36} />
+              <Moon className="moon" width={36} height={36} />
+            </span>
+            {/* <Sun className="sun" width={36} height={36} />
+              <Moon className="moon" width={36} height={36} /> */}
+          </ButtonSvg>
+          {/* </div> */}
         </div>
 
         <nav>
