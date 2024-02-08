@@ -34,8 +34,11 @@ export default function ModalMenu({ openModal }) {
   const onClickSwitch = e => {
     const button = e.currentTarget;
     const sun = button.querySelector('.sun');
+    const moon = button.querySelector('.moon');
     const spanWrapperSvg = button.querySelector('.spanSvg');
+
     sun.classList.toggle('sun-icon');
+    moon.classList.toggle('moon-icon');
     spanWrapperSvg.classList.toggle('buttonSwitchRotate');
   };
 
