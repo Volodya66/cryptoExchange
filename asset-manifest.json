@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cryptoExchange/static/css/main.0653a67f.css",
-    "main.js": "/cryptoExchange/static/js/main.105515f3.js",
+    "main.js": "/cryptoExchange/static/js/main.a401d91a.js",
     "static/media/groupHeroTablet.png": "/cryptoExchange/static/media/groupHeroTablet.066afaa13eed55e91812.png",
     "static/media/Group 543636868аспвапвпап.png": "/cryptoExchange/static/media/Group 543636868аспвапвпап.b68bd35ba34e6fc0de1a.png",
     "static/media/sun.svg": "/cryptoExchange/static/media/sun.66c9d6d77624e3e61b3bc38a875fc907.svg",
@@ -21,10 +21,10 @@
     "static/media/telegram.svg": "/cryptoExchange/static/media/telegram.889ecb3a9f98859148c488fe5dcd3ac2.svg",
     "static/media/exchange.svg": "/cryptoExchange/static/media/exchange.9a9d9248bfc788a21959a9bfeb5b663e.svg",
     "main.0653a67f.css.map": "/cryptoExchange/static/css/main.0653a67f.css.map",
-    "main.105515f3.js.map": "/cryptoExchange/static/js/main.105515f3.js.map"
+    "main.a401d91a.js.map": "/cryptoExchange/static/js/main.a401d91a.js.map"
   },
   "entrypoints": [
     "static/css/main.0653a67f.css",
-    "static/js/main.105515f3.js"
+    "static/js/main.a401d91a.js"
   ]
 }
