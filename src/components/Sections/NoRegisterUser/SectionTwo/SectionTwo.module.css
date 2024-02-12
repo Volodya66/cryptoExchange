@@ -2,6 +2,12 @@
   font-style: 24px;
   margin-bottom: 60px;
 }
+.listBlock {
+  /* display: flex; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 .listAdvantages {
   padding: 0;
@@ -46,8 +52,19 @@
   font-size: 20px;
   margin-bottom: 25px;
 }
+.textCryptoOb {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.listOpt {
+  display: none;
+}
+.advantages {
+  display: none;
+}
 
-@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+@media screen and (min-width: 768px) and (max-width: 1919.9px) {
   .listAdvantages {
     justify-content: space-between;
   }
@@ -71,7 +88,140 @@
     justify-content: space-between;
   }
 
-  .textCrypto {
+  .textCrypto,
+  .textCryptoOb {
     width: 320px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .cryptoWrapperText {
+    width: 593px;
+    height: 586px;
+  }
+  .textCrypto {
+    font-size: 24px;
+  }
+  .listItemTile {
+    font-size: 44px;
+  }
+  .itemText {
+    font-size: 32px;
+  }
+  .listAdvantages {
+    width: 1018px;
+    justify-content: space-between;
+  }
+  .listItemAdv:nth-child(1) {
+    width: 204px;
+    order: 3;
+  }
+  .listItemAdv:nth-child(2) {
+    width: 122px;
+    order: 2;
+  }
+  .listItemAdv:nth-child(3) {
+    width: 137px;
+    order: 1;
+  }
+  .listItemAdv:nth-child(4) {
+    width: 83px;
+    order: 4;
+  }
+  .listOpt {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    width: 1018px;
+    /* height: 586px; */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    /* position: absolute; */
+  }
+  .textOpt {
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+  }
+  .listBlockItem:nth-child(1) {
+    order: 2;
+    flex-grow: 3;
+  }
+  .listBlockItem:nth-child(2) {
+    order: 1;
+    flex-grow: 2;
+  }
+  .listBlockItem:nth-child(3) {
+    order: 3;
+  }
+  .listBlock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px 149px;
+  }
+  .textCryptoOb {
+    font-size: 44px;
+    margin-bottom: 50px;
+  }
+  .advantages {
+    display: flex;
+    align-items: center;
+    gap: 192px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .advantagesListCircle {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+  }
+
+  .advantagesWrapperCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advantagesItem {
+    display: block;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 50%;
+    background: linear-gradient(
+      to bottom,
+      rgba(139, 129, 255, 1),
+      rgba(126, 50, 240, 1),
+      rgba(236, 20, 227, 1)
+    );
+  }
+
+  .listQuality {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+  }
+
+  .listQualityItem {
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
   }
 }

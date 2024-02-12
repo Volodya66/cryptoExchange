@@ -5,6 +5,7 @@ import css from './Inputs.module.css';
 import ButtonSvg from 'components/Button/ButtonSvg';
 
 import { ReactComponent as Reveranse } from 'images/svgMobile/exchange.svg';
+import { ReactComponent as ReveranseDesk } from 'images/svgDesk/reverseDesk.svg';
 
 export default function InputData() {
   return (
@@ -39,7 +40,10 @@ export default function InputData() {
 
         <div className={css.reveranse}>
           <ButtonSvg styles={'btnReverans'}>
-            <Reveranse />
+            <Reveranse styles={'reverse'} />
+          </ButtonSvg>
+          <ButtonSvg styles={'btnReveransDesk'}>
+            <ReveranseDesk styles={'reverse'} />
           </ButtonSvg>
         </div>
 
@@ -65,26 +69,28 @@ export default function InputData() {
         </div>
       </div>
 
-      <label className={css.label} htmlFor="name">
-        <p className={css.text}>Нік в телеграмі</p>
-        <Field
-          placeholder="@Івась"
-          className={css.inp}
-          type="text"
-          name="name"
-          required
-        />
-      </label>
-      <label className={css.label} htmlFor="number">
-        <p className={css.text}>Номер телефону</p>
-        <Field
-          className={css.inp}
-          placeholder="+38000 000 00 00"
-          type="tel"
-          name="number"
-          required
-        />
-      </label>
+      <div className={css.wrapperUserDataInp}>
+        <label className={css.label} htmlFor="name">
+          <p className={css.textUserData}>Нік в телеграмі</p>
+          <Field
+            placeholder="@Івась"
+            className={css.inp}
+            type="text"
+            name="name"
+            required
+          />
+        </label>
+        <label className={css.label} htmlFor="number">
+          <p className={css.textUserData}>Номер телефону</p>
+          <Field
+            className={css.inp}
+            placeholder="+38000 000 00 00"
+            type="tel"
+            name="number"
+            required
+          />
+        </label>
+      </div>
     </div>
   );
 }

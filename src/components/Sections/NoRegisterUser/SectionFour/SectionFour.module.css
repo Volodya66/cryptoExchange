@@ -42,7 +42,7 @@
 } */
 
 .textListItem {
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   display: inline-block;
   width: 255px;
@@ -99,13 +99,13 @@
 }
 
 .visible1 {
-  height: 234px;
+  height: 256px;
   /* height: 304px; */
   padding: 40px 20px;
 }
 
 .visible2 {
-  height: 420px;
+  height: 444px;
   padding: 40px 20px;
 }
 
@@ -119,7 +119,42 @@
   padding: 40px 20px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+@media screen and (max-width: 339.9px) {
+  .textListItem {
+    font-size: 14px;
+    font-style: normal;
+    display: inline-block;
+    width: 255px;
+  }
+
+  .textOverlay,
+  .textOverlay2 {
+    font-size: 12px;
+  }
+
+  .visible1 {
+    height: 180px;
+    /* height: 304px; */
+    padding: 40px 20px;
+  }
+
+  .visible2 {
+    height: 312px;
+    padding: 40px 20px;
+  }
+
+  .visible3 {
+    height: 216px;
+    padding: 40px 20px;
+  }
+
+  .visible4 {
+    height: 114px;
+    padding: 40px 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1919.9px) {
   .divOrignText {
     justify-content: space-between;
   }
@@ -166,7 +201,64 @@
   }
 
   .visible4 {
-    height: 10з того всього роблю свій проек4px;
+    height: 104px;
+    padding: 40px 20px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .title {
+    font-size: 44px;
+    margin-bottom: 50px;
+  }
+  .wrapperBg {
+    width: 722px;
+    /* height: 532px; */
+    background-image: url(../../../../images//desktopIMG/questionDesk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 158px 216px;
+  }
+  .wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  .listInformation {
+    width: 1018px;
+  }
+  .textListItem {
+    width: auto;
+  }
+  .divOrignText {
+    height: 130px;
+    justify-content: space-between;
+  }
+  .textListItem {
+    font-size: 32px;
+  }
+  .textOverlay,
+  .textOverlay2 {
+    font-size: 24px;
+  }
+
+  .visible1 {
+    height: 176px;
+    /* height: 304px; */
+    padding: 40px 20px;
+  }
+
+  .visible2 {
+    height: 284px;
+    padding: 40px 20px;
+  }
+
+  .visible3 {
+    height: 206px;
+    padding: 40px 20px;
+  }
+
+  .visible4 {
+    height: 110px;
     padding: 40px 20px;
   }
 }

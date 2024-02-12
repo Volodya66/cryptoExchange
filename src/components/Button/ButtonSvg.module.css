@@ -33,3 +33,19 @@
   cursor: pointer;
   /* transition: transform 0.3s ease, opacity 0.3s ease; */
 }
+
+@media screen and (max-width: 1919.9px) {
+  .btnReveransDesk {
+    display: none;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .btnReverans {
+    display: none;
+  }
+
+  .btnReveransDesk {
+    display: flex;
+    justify-content: center;
+  }
+}

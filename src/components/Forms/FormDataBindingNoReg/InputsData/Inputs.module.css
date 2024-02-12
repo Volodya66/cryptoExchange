@@ -1,18 +1,19 @@
 .container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  /* max-width: 320px; */
+  /* gap: 40px; */
+
   margin-bottom: 40px;
 }
 
-.text {
+.text,
+.textUserData {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
 .label {
-  max-width: 320px;
+  /* max-width: 320px; */
   position: relative;
 }
 
@@ -111,12 +112,6 @@
   outline: none;
 }
 
-/* .firstContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-} */
-
 .option {
   display: block;
   padding: 40px;
@@ -143,9 +138,10 @@
 
 @media screen and (max-width: 767.9px) {
   .container {
-    display: flex;
-    flex-direction: column;
-    /* gap: 20px; */
+    max-width: 320px;
+  }
+
+  .label {
     max-width: 320px;
   }
 
@@ -154,24 +150,117 @@
     justify-content: space-between;
     /* flex-direction: column; */
   }
+  .wrapperUserDataInp {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+@media screen and (min-width: 768px) and (max-width: 1919.9px) {
   .container {
     display: flex;
     width: 100%;
-    gap: 20px;
+    /* gap: 40px; */
   }
 
   .wrapperInpDiv {
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    /* flex-direction: column; */
   }
 
   .inputsWrapper {
     display: flex;
     justify-content: space-between;
+  }
+  .wrapperUserDataInp {
+    display: flex;
+    gap: 20px;
+  }
+  .label {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 1919.9px) {
+  .wrapperUserDataInp {
+    flex-direction: column;
+  }
+  .container {
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container {
+    gap: 50px;
+  }
+  .wrapperInpDiv {
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .inputsWrapper {
+    width: 1240px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .labelGet {
+    width: 190px;
+    height: 100px;
+  }
+  .inpGet {
+    width: 190px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 32px;
+  }
+  .text {
+    font-size: 32px;
+  }
+  .textGet {
+    width: 190px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 32px;
+    /* text-align: start; */
+    display: flex;
+    justify-content: start;
+    padding-top: 25px;
+    line-height: normal;
+  }
+
+  .textUserData {
+    height: 23px;
+  }
+
+  .reveranse {
+    margin-top: auto;
+    padding: 0;
+  }
+
+  .wrapperUserDataInp {
+    display: flex;
+    width: 1240px;
+    /* height: 143px; */
+    justify-content: space-between;
+    /* flex-direction: column; */
+  }
+  .label {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .inp {
+    width: 600px;
+    height: 100px;
+    padding: 40px 20px;
+    border-radius: 50px;
+    font-size: 24px;
+  }
+  .textUserData {
+    padding-bottom: 20px;
+    font-size: 32px;
   }
 }

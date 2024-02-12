@@ -177,6 +177,14 @@
     width: auto;
   }
 
+  .btnHero1 {
+    background-color: #8b81ff;
+  }
+
+  .btnHero2 {
+    background-color: transparent;
+  }
+
   .btnHero1,
   .btnHero2 {
     font-family: 'Manrope', sans-serif;

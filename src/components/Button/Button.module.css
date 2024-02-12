@@ -92,10 +92,28 @@ font-size: 14px;
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+@media screen and (min-width: 768px) and (max-width: 1919.9px) {
   .btnAddDataUser {
     position: absolute;
     bottom: 0;
     right: 32px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .btnAddDataUser {
+    border-radius: 50px;
+    text-align: center;
+    width: 500px;
+    height: 93px;
+    font-size: 32px;
+    position: absolute;
+    bottom: 0;
+    right: 1260px;
+    right: 80px;
+  }
+
+  .btnAddDataUser {
+    background-color: #8b81ff;
   }
 }

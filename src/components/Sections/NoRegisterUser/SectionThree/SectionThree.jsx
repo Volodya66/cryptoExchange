@@ -12,13 +12,19 @@ export default function SectionThree() {
       <div className={css.wrapperContent}>
         <ul className={css.listInformation}>
           <li>
-            <p>Видача готівки у всіх великих містах України</p>
+            <p className={css.listInformationText}>
+              Видача готівки у всіх великих містах України
+            </p>
           </li>
           <li>
-            <p>Головний офіс у центрі Києва</p>
+            <p className={css.listInformationText}>
+              Головний офіс у центрі Києва
+            </p>
           </li>
           <li>
-            <p>Видача і інших містах від 5 000$, в інших країнах від 10 000$</p>
+            <p className={css.listInformationText}>
+              Видача і інших містах від 5 000$, в інших країнах від 10 000$
+            </p>
           </li>
         </ul>
 

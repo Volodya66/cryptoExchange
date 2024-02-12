@@ -1,3 +1,7 @@
+.listIconDesk {
+  display: none;
+}
+
 .sectionFooter {
   margin-top: 80px;
   margin-bottom: 85px;
@@ -94,7 +98,7 @@
     max-width: 360px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+@media screen and (min-width: 768px) and (max-width: 1919.9px) {
   .listFooter {
     gap: 25px;
     justify-content: center;
@@ -107,5 +111,77 @@
   .sectionFooter {
     width: 768px;
     padding: 0 20px;
+  }
+  .textSection {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .sectionFooter {
+    width: 1920px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 80px;
+  }
+
+  .titleText {
+    font-size: 60px;
+
+    font-weight: 400;
+  }
+  .textOnline {
+    font-size: 24px;
+  }
+  .textSection {
+    height: 100px;
+    gap: 40px;
+    align-items: start;
+  }
+  .containerSocial {
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+    margin: 0;
+  }
+  .link {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .listIcon {
+    display: none;
+  }
+  .listIconDesk {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+  }
+  .wrapperContentMax {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .listFooter {
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .listFooterItem {
+    font-size: 24px;
+  }
+  .listFooterItem:nth-child(3) {
+    text-align: start;
+    order: 1;
+    margin: 0;
+  }
+  .listFooterItem:nth-child(1) {
+    text-align: start;
+    order: 2;
+  }
+  .listFooterItem:nth-child(2) {
+    text-align: start;
+    order: 3;
   }
 }

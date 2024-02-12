@@ -30,8 +30,13 @@
   justify-content: center;
   align-items: center;
 }
+.listInformationText {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
 
-@media screen and (min-width: 768px) and (max-width: 1759.9px) {
+@media screen and (min-width: 768px) and (max-width: 1919.9px) {
   .wrapperContent {
     display: flex;
     align-items: flex-end;
@@ -40,5 +45,32 @@
   .listInformation {
     margin: 0;
     width: 319px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .title {
+    font-size: 44px;
+    margin-bottom: 50px;
+  }
+  .listInformationText {
+    font-size: 32px;
+  }
+  .listInformation {
+    gap: 50px;
+    margin-bottom: 0;
+  }
+
+  .btnInformation {
+    width: 500px;
+    height: 93px;
+    border-radius: 50px;
+    background-color: #8b81ff;
+    font-weight: 400;
+    font-size: 32px;
+  }
+  .wrapperContent {
+    display: flex;
+    align-items: flex-end;
   }
 }
