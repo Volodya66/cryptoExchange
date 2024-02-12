@@ -225,7 +225,7 @@
     font-size: 32px;
     /* text-align: start; */
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     padding-top: 25px;
     line-height: normal;
   }
