@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/cryptoExchange/static/css/main.0653a67f.css",
-    "main.js": "/cryptoExchange/static/js/main.a401d91a.js",
+    "main.css": "/cryptoExchange/static/css/main.ce855a1d.css",
+    "main.js": "/cryptoExchange/static/js/main.bf0ee6cb.js",
     "static/media/groupHeroTablet.png": "/cryptoExchange/static/media/groupHeroTablet.066afaa13eed55e91812.png",
     "static/media/Group 543636868аспвапвпап.png": "/cryptoExchange/static/media/Group 543636868аспвапвпап.b68bd35ba34e6fc0de1a.png",
+    "static/media/questionDesk.png": "/cryptoExchange/static/media/questionDesk.9a80f1267cbae0a4ca58.png",
     "static/media/sun.svg": "/cryptoExchange/static/media/sun.66c9d6d77624e3e61b3bc38a875fc907.svg",
     "static/media/eurTabl.svg": "/cryptoExchange/static/media/eurTabl.879a3c5c5a6bf0edc1e8.svg",
     "static/media/usd.svg": "/cryptoExchange/static/media/usd.5f27e9076f8b0484e258.svg",
     "static/media/moon.svg": "/cryptoExchange/static/media/moon.c596923908603fb7a845f0b5f4e84447.svg",
     "static/media/btcTabl.svg": "/cryptoExchange/static/media/btcTabl.6d5225b83bbdce9952f2.svg",
     "static/media/Instagram.svg": "/cryptoExchange/static/media/Instagram.050b8cda209687ec954d3a7e12d60255.svg",
+    "static/media/InstagramDesk.svg": "/cryptoExchange/static/media/InstagramDesk.5ca06cea85219971d675d0f4361df388.svg",
     "index.html": "/cryptoExchange/index.html",
     "static/media/zetaTabl.svg": "/cryptoExchange/static/media/zetaTabl.9e88262b56792dbaf7fc.svg",
     "static/media/ethTabl.svg": "/cryptoExchange/static/media/ethTabl.86fc50a761cfdf4a7658.svg",
@@ -19,12 +21,14 @@
     "static/media/down.svg": "/cryptoExchange/static/media/down.cb869a9b7c4052711910aa37d6235229.svg",
     "static/media/check.svg": "/cryptoExchange/static/media/check.fd2785aa3f17f4c5520af199f2475390.svg",
     "static/media/telegram.svg": "/cryptoExchange/static/media/telegram.889ecb3a9f98859148c488fe5dcd3ac2.svg",
+    "static/media/telegramDesk.svg": "/cryptoExchange/static/media/telegramDesk.b46af28461d73bf8bdb3e7b9c90a8f14.svg",
     "static/media/exchange.svg": "/cryptoExchange/static/media/exchange.9a9d9248bfc788a21959a9bfeb5b663e.svg",
-    "main.0653a67f.css.map": "/cryptoExchange/static/css/main.0653a67f.css.map",
-    "main.a401d91a.js.map": "/cryptoExchange/static/js/main.a401d91a.js.map"
+    "static/media/reverseDesk.svg": "/cryptoExchange/static/media/reverseDesk.b3598ee77954557d99564ef5d9f7ba40.svg",
+    "main.ce855a1d.css.map": "/cryptoExchange/static/css/main.ce855a1d.css.map",
+    "main.bf0ee6cb.js.map": "/cryptoExchange/static/js/main.bf0ee6cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0653a67f.css",
-    "static/js/main.a401d91a.js"
+    "static/css/main.ce855a1d.css",
+    "static/js/main.bf0ee6cb.js"
   ]
 }
